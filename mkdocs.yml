@@ -1,13 +1,9 @@
-site_name: pinklure's blog
+site_name: pinklure's posts
 site_url: https://pinklure.github.io
 site_author: pinklure
-site_description: pinklure's Individual Blog Site
-
-# repo_name: pinklure.github.io
-# repo_url: https://github.com/pinklure/pinklure.github.io
+site_description: pinklure's Individual Posts Site
 
 copyright: Copyright &copy; 2022-present <a href="https://github.com/pinklure" target="_blank" rel="noopener noreferrer">pinklure</a>
-
 
 theme:
   name: material
@@ -28,7 +24,7 @@ theme:
   features:
     - navigation.instant
     - navigation.tracking
-    - navigation.tabs
+    # - navigation.tabs
     # - navigation.sticky
     - navigation.sections
     - navigation.expand
@@ -88,10 +84,20 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
 
-
 nav:
-  - Blog:
-    - blog/index.md
-  - About Author:
-    - author.md
+  - Posts:
+    - posts/index.md
+    - Linux:
+        - ELF & Linker & Loader & Library:
+          - posts/linux/elf_linker_loader_library/index.md
+        - eBPF:
+          - posts/linux/eBPF/index.md
+        - Kernel:
+          - posts/linux/kernel/index.md
+        - Performance Observability:
+          - posts/linux/performance_observability/index.md
+          - top: posts/linux/performance_observability/top.md
+          - ps: posts/linux/performance_observability/ps.md
+  - Archive:
+    - archive/index.md
 

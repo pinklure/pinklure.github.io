@@ -1,28 +1,14 @@
-# 我是赵启帆
+## What's this ?
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+This is pinklure's personal posts page for my coding career record.
 
-## Commands
+## Who am I ?
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Being a professional C++ developer was my target. After about 2 years learning, I consider myself as an half C++ developer with some experience. Hopefully, Linux kernel developer will be my new title in near future and that's what I'm running for recently.
+-- pinklure 2020
 
-## Project layout
+## Contact me if anything.
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+**E-mail**: zhaoqifan0106@gmail.com
 
-
-```C++
-#include <iostream>
-int main() {
-  std::cout<<"Hello"<<std::endl;
-}
-```
-
-!!! note
-    shaiodhouashdoi
+**Github**: https://github.com/pinklure
