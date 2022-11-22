@@ -88,16 +88,13 @@ nav:
   - Posts:
     - posts/index.md
     - Linux:
-        - ELF & Linker & Loader & Library:
-          - posts/linux/elf_linker_loader_library/index.md
-        - eBPF:
-          - posts/linux/eBPF/index.md
-        - Kernel:
-          - posts/linux/kernel/index.md
+        - posts/linux/index.md
         - Performance Observability:
           - posts/linux/performance_observability/index.md
-          - top: posts/linux/performance_observability/top.md
+          - dmesg: posts/linux/performance_observability/dmesg.md
           - ps: posts/linux/performance_observability/ps.md
+          - top: posts/linux/performance_observability/top.md
+          - vmstat: posts/linux/performance_observability/vmstat.md
   - Archive:
     - archive/index.md
 
