@@ -11,7 +11,6 @@ DIV("eBPF")
 .article("Learn eBPF Tracing: Tutorial and Examples", "", "https://www.brendangregg.com/blog/2019-01-01/learn-ebpf-tracing.html")
 .END();
 
-
 DIV("Linux kernel")
 .site("Linux Kernel Documentation", "", "https://docs.kernel.org/index.html")
 .site("Linux Kernel Newbies", "", "https://kernelnewbies.org/")
@@ -32,6 +31,13 @@ DIV("Linux kernel")
 .article("Booting a Custom Linux Kernel in QEMU and Debugging it with GDB - Nick Desaulniers", "", "http://nickdesaulniers.github.io/blog/2018/10/24/booting-a-custom-linux-kernel-in-qemu-and-debugging-it-with-gdb/")
 .END();
 
+DIV("KVM")
+.site("KVM", "", "https://www.linux-kvm.org/")
+.site("Planet Virt Tools", "Blogging about open source virtualization", "https://planet.virt-tools.org/")
+.article("QEMU+KVM学习笔记", "", "https://www.evernote.com/shard/s325/client/snv?noteGuid=bebe0aaa-9d30-4624-9772-a0af9dfffead&noteKey=a08905a6b6733c5cd945bba560d4d927&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs325%2Fsh%2Fbebe0aaa-9d30-4624-9772-a0af9dfffead%2Fa08905a6b6733c5cd945bba560d4d927&title=QEMU%252BKVM%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0")
+.article("Native Linux KVM tool", "", "https://lwn.net/Articles/436781/")
+.repo("google/novm", "Experimental KVM-based VMM for containers, written in Go.", "https://github.com/google/novm")
+.END();
 
 DIV("QEMU")
 .site("QEMU Document", "", "https://www.qemu.org/docs/master/")
@@ -40,7 +46,9 @@ DIV("QEMU")
 
 DIV("C++")
 .site("Compiler Explore", "", "https://godbolt.org/")
+.site("C++ Insights", "", "https://cppinsights.io/")
 .site("C++ Patterns", "", "https://cpppatterns.com/")
+.site("Quick C++ Benchmark", "", "https://quick-bench.com/")
 .END();
 
 console.log("What happened?");
