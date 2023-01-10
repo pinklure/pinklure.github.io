@@ -11,6 +11,12 @@ DIV("eBPF")
 .article("Learn eBPF Tracing: Tutorial and Examples", "", "https://www.brendangregg.com/blog/2019-01-01/learn-ebpf-tracing.html")
 .END();
 
+DIV("RT Linux")
+.article("Linux Preemption模式", "", "https://www.yuanguohuo.com/2020/03/31/linux-preemption-mode/")
+.article("Preemption Models", "", "https://wiki.linuxfoundation.org/realtime/documentation/technical_basics/preemption_models")
+.article("Realtime kernel patchset", "", "https://wiki.archlinux.org/title/Realtime_kernel_patchset")
+.END();
+
 DIV("Linux kernel")
 .site("Linux Kernel Documentation", "", "https://docs.kernel.org/index.html")
 .site("Linux Kernel Newbies", "", "https://kernelnewbies.org/")
