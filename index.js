@@ -14,6 +14,7 @@ DIV("eBPF")
 DIV("RT Linux")
 .site("Real-Time Linux Wiki", "", "https://rt.wiki.kernel.org/index.php/Main_Page")
 .article("Linux Preemption模式", "", "https://www.yuanguohuo.com/2020/03/31/linux-preemption-mode/")
+.article("Proper Locking Under a Preemptible Kernel: Keeping Kernel Code Preempt-Safe", "", "https://www.kernel.org/doc/html/latest/locking/preempt-locking.html")
 .article("Preemption Models", "", "https://wiki.linuxfoundation.org/realtime/documentation/technical_basics/preemption_models")
 .article("Realtime kernel patchset", "", "https://wiki.archlinux.org/title/Realtime_kernel_patchset")
 .END();
