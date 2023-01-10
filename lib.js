@@ -28,6 +28,10 @@ class Block {
         return this.push("Book", title, desc, addr);
     }
 
+    collection(title, desc, addr) {
+        return this.push("Collection", title, desc, addr);
+    }
+
     article(title, desc, addr) {
         return this.push("Article", title, desc, addr);
     }
