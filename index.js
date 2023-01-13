@@ -12,7 +12,11 @@ DIV("eBPF")
 .END();
 
 DIV("RT Linux")
+.site("RT Patch USTC", "", "http://mirrors.ustc.edu.cn/kernel.org/linux/kernel/projects/rt/")
 .site("Real-Time Linux Wiki", "", "https://rt.wiki.kernel.org/index.php/Main_Page")
+.site("Real-Time Operating Systems and Middleware", "", "http://disi.unitn.it/~abeni/RTOS/")
+.article("SCHED_DEADLINE: What's next? Claudio Scordino, Evidence Srl Juri Lelli, Red Hat", "", "https://wiki.linuxfoundation.org/_media/realtime/events/rt-summit2017/sched-deadline_claudio-scordino.pdf")
+.article("Using EDF in Linux: SCHED DEADLINE, Luca Abeni", "", "http://disi.unitn.it/~abeni/RTOS/sched_deadline.pdf")
 .article("Linux Preemption模式", "", "https://www.yuanguohuo.com/2020/03/31/linux-preemption-mode/")
 .article("Proper Locking Under a Preemptible Kernel: Keeping Kernel Code Preempt-Safe", "", "https://www.kernel.org/doc/html/latest/locking/preempt-locking.html")
 .article("Preemption Models", "", "https://wiki.linuxfoundation.org/realtime/documentation/technical_basics/preemption_models")
@@ -20,6 +24,7 @@ DIV("RT Linux")
 .END();
 
 DIV("Linux kernel")
+.site("Kernel Source USTC", "", "http://mirrors.ustc.edu.cn/kernel.org/linux/kernel/")
 .site("Linux Kernel Documentation", "", "https://docs.kernel.org/index.html")
 .site("Linux Kernel Newbies", "", "https://kernelnewbies.org/")
 .site("Linux Weekly News", "", "https://lwn.net/")
@@ -47,6 +52,7 @@ DIV("KVM")
 .article("QEMU+KVM学习笔记", "", "https://www.evernote.com/shard/s325/client/snv?noteGuid=bebe0aaa-9d30-4624-9772-a0af9dfffead&noteKey=a08905a6b6733c5cd945bba560d4d927&sn=https%3A%2F%2Fwww.evernote.com%2Fshard%2Fs325%2Fsh%2Fbebe0aaa-9d30-4624-9772-a0af9dfffead%2Fa08905a6b6733c5cd945bba560d4d927&title=QEMU%252BKVM%25E5%25AD%25A6%25E4%25B9%25A0%25E7%25AC%2594%25E8%25AE%25B0")
 .article("Native Linux KVM tool", "", "https://lwn.net/Articles/436781/")
 .repo("google/novm", "Experimental KVM-based VMM for containers, written in Go.", "https://github.com/google/novm")
+.article("Solved: Virtualized Intel VT-x/EPT Error", "", "https://communities.vmware.com/t5/VMware-Workstation-Player/Virtualized-Intel-VT-x-EPT-Error/td-p/2819556")
 .END();
 
 DIV("QEMU")
