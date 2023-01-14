@@ -5,6 +5,9 @@ class Block {
     }
 
     push(category, title, desc, addr) {
+        if(desc.length != 0) {
+            desc = "&nbsp--&nbsp" + desc;
+        }
         this.items.push(
             {
                 "category": category,
