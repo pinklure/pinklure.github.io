@@ -37,6 +37,15 @@ DIV("eBPF")
 .repo("iovisor/bcc", "bcc Github site", "https://github.com/iovisor/bcc")
 .END();
 
+DIV("ARM")
+.site("Arm Developer", "Official site", "https://developer.arm.com/")
+.article("INTRODUCTION TO ARM ASSEMBLY BASICS", "", "https://azeria-labs.com/writing-arm-assembly-part-1/")
+.END();
+
+DIV("Solutions to problems")
+.solution("Virtualized Intel VT-x/EPT Error", "Enable client's KVM", "https://communities.vmware.com/t5/VMware-Workstation-Player/Virtualized-Intel-VT-x-EPT-Error/td-p/2819556")
+.END();
+
 
 
 DIV("Below is Not Actively Used or Maintained")

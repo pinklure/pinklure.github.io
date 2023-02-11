@@ -43,6 +43,10 @@ class Block {
         return this.push("Repo", title, desc, addr);
     }
 
+    solution(title, desc, addr) {
+        return this.push("Solution", title, desc, addr);
+    }
+
     END() {
         var header = `<h2>${this.head}</h2>\n`;
         var body = "";
